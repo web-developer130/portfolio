@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: rgba(238, 77, 66, 0.377);
+    background-image: url(image/12.jpg);
+    min-height: 100vh;
+    overflow-x: hidden;
+    width: 100%;
+    background-size: cover;
+    background-position:-1000px ,-1000px;
+}
+#main{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+#main #title{
+    color: rgb(240, 14, 165);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+}
+#title{
+    color: rgb(244, 242, 248);
+    font-weight:bold;
+    text-decoration: none;
+    font-size: 3em;  
+    font-family: fantasy;
+}
+#main .navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main .navigation li{
+    list-style: none;
+    margin-left: 20px;
+}
+#main .navigation li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: rgba(233, 5, 202, 0.938);
+    border-radius: 20px;
+}
+#main .navigation li a:hover,
+#main .navigation li a.active{
+    background: #fff;
+    color: #111;
+}
+#tribute-link{
+    padding: 50px;
+    background: salmon;
+    margin-top: 100px;
+    
+}
+#tribute-link h1{
+    color:rgba(83, 80, 80, 0.897);
+    margin-bottom:30px;
+}
+
+.link{
+    position: relative;
+    display: flex;
+    color:aqua;
+}
+.link li{
+    position: relative;
+    list-style: none;
+}
+.link li a{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 50%;
+    color: #f807c4;
+    box-shadow: inset -1px -1px 2px rgba(0, 0, 0, 0.2),
+                2px 2px 5px rgba(136, 11, 11, 0.2);
+    transition: 1s;
+}
+.link li a:hover{
+    color: rgb(156, 119, 119);
+    transform: scale(1.4);
+        box-shadow: inset -1px -1px 2px rgba(0, 0, 0, 0.2),
+                2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.intermidiate{
+    margin-top: 200px;
+    background-image: url(image/4.jpg);
+     margin-left: 80px;
+margin-right: 500px; 
+border-radius: 20px;
+width:1000px;
+height:350px;
+box-shadow: inset -1px -1px 2px rgba(0, 0, 0, 0.2),
+                2px 2px 5px rgba(136, 11, 11, 0.2);
+transition: 1;
+}
+
+.intermidiate:hover{
+    color: rgb(243, 18, 202);
+    transform: scale(1.1);
+    box-shadow: inset -1px -1px 20px rgba(230, 15, 15, 0.2),
+    2px 2px 60px rgba(0, 0, 0, 0.2);
+    
+}
+.intermidiate h2{
+    text-align:center;
+    text-decoration: blueviolet;
+}
+.intermidiate h3{
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+

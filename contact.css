@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: rgba(238, 77, 66, 0.377);
+    background-image: url(image/4.jpg);
+    min-height: 100vh;
+    overflow-x: hidden;
+    width: 100%;
+    background-size: cover;
+}
+#main{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+#main #title{
+    color: rgb(240, 14, 165);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+}
+#title{
+    color: rgb(244, 242, 248);
+    font-weight:bold;
+    text-decoration: none;
+    font-size: 3em;  
+    font-family: fantasy;
+}
+#main .navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main .navigation li{
+    list-style: none;
+    margin-left: 20px;
+}
+#main .navigation li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: rgba(247, 9, 227, 0.938);
+    border-radius: 20px;
+}
+#main .navigation li a:hover,
+#main .navigation li a.active{
+    background: #fff;
+    color: #111;
+}
+#tribute-link{
+    
+    padding: 50px;
+    background: salmon;
+    margin-top: 100px;
+    
+}
+#tribute-link h1{
+    color:white;
+    margin-bottom:30px;
+}
+
+.link{
+    position: relative;
+    display: flex;
+    color:aqua;
+}
+.link li{
+    position: relative;
+    list-style: none;
+}
+.link li a{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 50%;
+    color: #4d1d1d;
+    box-shadow: inset -1px -1px 2px rgba(0, 0, 0, 0.2),
+                2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: 1s;
+}
+.link li a:hover{
+    color: rgb(233, 18, 222);
+    transform: scale(1.4);
+    box-shadow: inset -1px -1px 2px rgba(0, 0, 0, 0.2),
+                2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.intermidiate{
+    margin-top: 200px;
+    background-image: url(image/1.jpg),linear-gradient(cicle,rgba(15, 126, 170, 0.822),rgba(15, 90, 170, 0.5),rgba(5,120, 9, 0.5));
+    background-blend-mode:multiply;
+     margin-left: 50px;
+margin-right: 500px; 
+border-radius: 20px;
+width:1000px;
+height:400px;
+transition: 0.5;
+}
+
+.intermidiate:hover{
+    color: rgb(243, 18, 202);
+    transform: translateY(-40px);
+    box-shadow: inset -2px -2px 2px rgb(8, 255, 201),
+                2px 2px 5px rgba(241, 207, 9, 0.979);
+}
+.intermidiate h2{
+    text-align:center;
+    text-decoration: rgb(250, 0, 217);
+}
+.intermidiate h3{
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+

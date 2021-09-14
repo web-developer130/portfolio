@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: rgba(107, 255, 22, 0.2);
+    min-height: 100vh;
+    overflow-x: hidden;
+    width: 100%;
+  
+}
+#main{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+#main #title{
+    color: rgb(244, 242, 248);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+}
+#title{
+    color: rgb(244, 242, 248);
+    font-weight:bold;
+    text-decoration: none;
+    font-size: 3em;  
+    font-family: fantasy;
+}
+#main .navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main .navigation li{
+    list-style: none;
+    margin-left: 20px;
+
+}
+#main .navigation li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: rgba(246, 249, 250, 0.986);
+    border-radius: 20px;
+   
+}
+#main .navigation li a:hover,
+#main .navigation li a.active{
+    background: #fff;
+    color: #111;
+}
+div{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+div img#image{
+    mix-blend-mode: screen;
+}
+div img#masjid{
+    transform: translateY(-20px);
+}
+#text{
+    position: absolute;
+    top: 50%;
+    right: -100%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 10vw;
+    white-space: nowrap;
+    text-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
+    font-family: 'Rancho', cursive;
+}
+#tribute-info{
+    position: relative;
+    padding: 100px;
+    background: salmon;
+}
+#tribute-info h2{
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+#tribute-info p{
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+}
+#tribute-link{
+    
+    padding: 50px;
+    background: salmon;
+}
+
+.link{
+    position: relative;
+    display: flex;
+    color:aqua;
+}
+.link li{
+    position: relative;
+    list-style: none;
+}
+.link li a{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 50%;
+    color: #e03d3d;
+    box-shadow: inset -1px -1px 2px rgba(0, 0, 0, 0.2),
+                2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+#tribute-link p{
+    color: white;
+    margin-bottom: 60px;
+    margin-left:30px;
+}
+.link li a:hover{
+    color: rgb(156, 119, 119);
+    transform: scale(1.5);
+    box-shadow: inset -1px -1px 2px rgba(0, 0, 0, 0.2),
+                2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
